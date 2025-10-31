@@ -8,6 +8,6 @@ public class Bill3 {
 		int billAmount = Integer.parseInt(args[3]);
 
 		double amountToPay = Math.ceil(billAmount / 3.0);
-		System.out.printf("Dear %s, %s and %s: pay %.1f Shekels each.%n", name3, name2, name1, amountToPay);
+		System.out.printf("Dear %s, %s and %s: pay %.1f Shekels each%n", name3, name2, name1, amountToPay);
 	}
 }
