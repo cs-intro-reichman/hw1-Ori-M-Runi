@@ -7,6 +7,6 @@ public class NumWords {
 		int numHundreds = inputNum / 100;
 		int numTens = (inputNum % 100) / 10;
 		int numOnes = inputNum % 10;
-		System.out.printf("%d hundreds, %d tens, %d ones.%n", numHundreds, numTens, numOnes);
+		System.out.printf("%d hundreds, %d tens, and %d ones.%n", numHundreds, numTens, numOnes);
 	}
 }
